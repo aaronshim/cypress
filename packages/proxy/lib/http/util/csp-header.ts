@@ -32,7 +32,7 @@ export const unsupportedCSPDirectives = [
    * DOM injection from occurring.
    */
   'trusted-types',
-  'require-trusted-types-for',
+  // 'require-trusted-types-for',
 ]
 
 const caseInsensitiveGetAllHeaders = (headers: OutgoingHttpHeaders, lowercaseProperty: string): string[] => {
